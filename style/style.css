@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav_logo, .nav_logo2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav_logo2{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav_logo-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header2{
+    background: #3A3838;
+}
+.nav_box, .nav_box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.nav__link, .nav_link2{
+    color: #3A3838;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+.nav__link:hover, .nav_link2:hover {
+    background-color: #fff;
+    color: #EF4423;
+}
+.header{
+    padding: 0 15px 36px;
+    background: #FFF;
+}
+.intro{
+    background-image: url(../img/logo_2.png);
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.card{
+    width: 100%;
+    height: auto;
+}
+.tnw_box{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #EBEBEB;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 320px;
+    flex-shrink: 0;
+    padding: 0 15px 15px;
+}
+.tnw{
+    background: #fff;
+}
+.tnw_card1{
+    background: #B71C1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    flex-shrink: 0;
+}
+.tnw_card2{
+    background: #6A1B9A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    flex-shrink: 0;
+}
+.tnw_card3{
+    background: #303F9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    flex-shrink: 0;
+}
+.tnw_card4{
+    background: #00695C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    flex-shrink: 0;
+}
+h3{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 320px;
+    padding: 8px 15px;
+}
+.text{
+    padding: 15px 0 15px;
+}
+h1{
+    text-align: center;
+}
+.footer_info{
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_text{
+    padding: 20px 0 30px 30px;
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+}
+h1{
+    padding: 40px;
+    color: #3A3838;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_text-word{
+    color: #686868;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 540px;
+    padding: 0;
+}
+h2{
+    color: #3A3838;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 540px;
+}
+.nav_logo-link2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav_link2{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+}
+.nav_link2:hover{
+    background: none;
+}
+.nav_box2{
+    margin: 0;
+    margin-top: 50px;
+}
+.logo_list{
+    padding: 28px 0;
+}
+.footer {
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+}
+.menu,
+.close{
+    width: 50px;
+}
+label{
+    display: none;
+}
+#check{
+    display: none;
+}
